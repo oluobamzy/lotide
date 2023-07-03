@@ -8,10 +8,22 @@ const findKeyByValue = require('./findKeyByValue');
 const findKey = require('./findKey')
 const eqObjects = require('./eqObjects');
 const countOnly = require('./countOnly');
+const assertArraysEqual = require('./assertArraysEqual');
+const assertObjectsEqual = require('./assertObjectsEqual');
+const assertEqual = require('./assertEqual');
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  eqArrays:eqArrays
+  head,
+  tail,
+  middle,
+  eqArrays,
+  without,
+  takeUntil,
+  findKey,
+  findKeyByValue,
+  eqObjects,
+  countOnly,
+  assertArraysEqual,
+  assertObjectsEqual,
+  assertEqual
 };
