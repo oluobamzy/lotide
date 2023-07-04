@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "oluwasegun-idowu/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "a lotide library built while learning at lighthouse labs",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/oluobamzy/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "oluwasegun-idowu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/oluobamzy/lotide/issues"
